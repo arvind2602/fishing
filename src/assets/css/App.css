@@ -1,0 +1,38 @@
+/*  Root variables  */
+:root {
+    --mainGrey:     #403d39;
+    --lightGrey:    #ccc5b9;
+    --mainWhite:    #fffcf2;
+    --mainDark:     #252422;
+    --mainOrange:   #eb5e28;
+    
+    --ptSansFont:   'PT Sans', sans-serif;
+    --farroFont:    'Farro', sans-serif;
+}
+
+/*  General CSS  */
+body {
+    font-family:    var(--ptSansFont);
+    background:     var(--mainWhite);
+    color:          var(--mainDark)
+}
+
+.text-title {
+    font-family: var(--farroFont);
+    letter-spacing: .3rem;
+    text-transform: uppercase
+}
+
+.text-blue {
+    color: var(--mainGrey)
+}
+
+.text-bright {
+    color: var(--lightGrey)
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: .8rem;
+    color: var(--mainOrange)
+}
